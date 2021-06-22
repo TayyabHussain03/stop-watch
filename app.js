@@ -32,7 +32,10 @@ function stop(){
 }
 
 function clearbtn(){
-  
+    seconds1 = 0;
+    minutes1 = 0;
+    miliseconds1 = 0;
+    
     minutes.innerHTML="00:";
     seconds.innerHTML="00:";
     miliseconds.innerHTML="00:";
